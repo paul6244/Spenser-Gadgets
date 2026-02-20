@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #BAB646, #C24E7B);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+.logo {
+    display: block;
+    margin: 150px auto;
+    width: 200px;
+    height: auto;
+
+    animation: rotate 3s linear infinite;
+}
+
+    @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.shop-button {
+    display: block;
+    margin: 50px auto;
+    padding: 15px 30px;
+    font-size: 19px;
+    color: rgb(245, 243, 243);
+    background-color: #C24E7B;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: #A63B66;
+}
+
+.box {
+      width: 300px;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(186, 78, 78, 0.2);
+    text-align: center;
+    margin: 50px auto;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+    
+}
+
+.box input{
+       width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #834eae;
+    border-radius: 5px;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4facfe;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.box button:hover {
+    background: #0e0bcb;
+}
